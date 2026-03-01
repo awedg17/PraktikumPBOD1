@@ -62,7 +62,7 @@ public class Mgaris {
 
     // cek tegak lurus
     System.out.println("g1 tegak lurus dengan g2? " + g1.isTegakLurus(g2));
-    System.out.println("g1 tegak lurus dengan g4? " + g1.isSejajar(g4));
+    System.out.println("g1 tegak lurus dengan g4? " + g1.isTegakLurus(g4));
 
     // persamaan garis y = mx + c
     System.out.println("\n=== Persamaan Garis ===");

@@ -13,14 +13,14 @@ public class Garis {
   /* ================== KONSTRUKTOR ================== */
 
   // a. Tanpa parameter dengan titik awal (0,0) dan titik akhir dengan (1,1).
-  Garis() {
+  public Garis() {
     this.titikAwal = new Titik(0,0);
     this.titikAkhir = new Titik(1,1);
     counterGaris++;
   }
 
   // b. Menggunakan parameter masukan titik awal dan akhir.
-  Garis(Titik t1, Titik t2) {
+  public Garis(Titik t1, Titik t2) {
     this.titikAwal = new Titik(t1.getAbsis(), t1.getOrdinat());
     this.titikAkhir = new Titik(t2.getAbsis(), t2.getOrdinat());
     counterGaris++;
@@ -94,14 +94,7 @@ public class Garis {
     double dx2 = G.titikAkhir.getAbsis() - G.titikAwal.getAbsis();
     double dy2 = G.titikAkhir.getOrdinat() - G.titikAwal.getOrdinat();
 
-    if ((dx1 == 0 && dy2 == 0) || (dx2 == 0 && dy1 == 0)) {
-      return true;
-    }
-    if (dx1 == 0 || dx2 == 0) {
-      return false;
-    }
-
-    return (dx1 == 0 && dy2 == 0) || (dx2 == 0 && dy1 == 0);
+    return (dx1 * dx2 + dy1 * dy2) == 0;
   }
 
   // i. Menampilkan titik awal & akhir garis
