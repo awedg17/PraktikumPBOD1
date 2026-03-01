@@ -81,7 +81,7 @@ public class Titik {
 
     // Mencari jarak dari titik a ke titik b
     public double getJarak(Titik T){
-    return Math.sqrt(Math.pow(T.absis - this.absis, 2) + Math.pow(T.ordinat - this.ordinat, 2));
+        return Math.sqrt(Math.pow(T.absis - this.absis, 2) + Math.pow(T.ordinat - this.ordinat, 2));
     }
 
     // Merefleksikan titik dengan sumbu X
@@ -96,11 +96,11 @@ public class Titik {
 
     // Membuat titik baru yang sudah direfleksikan dengan sumbu X
     public Titik getRefleksiX(){
-    return new Titik(this.absis, -this.ordinat);
+        return new Titik(this.absis, -this.ordinat);
     }
 
     // Membuat titik baru yang sudah direfleksikan dengan sumbu Y
     public Titik getRefleksiY(){
-    return new Titik(-this.absis, this.ordinat);
+        return new Titik(-this.absis, this.ordinat);
 }
 }
