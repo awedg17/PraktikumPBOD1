@@ -2,7 +2,7 @@
  * Nama File  : Kendaraan.java
  * Deskripsi  : berisi atribut dan method dalam class Kendaraan
  * Pembuat    : Dewangga Ramadhan Halim 
- * Tanggal    : 24/02/2026
+ * Tanggal    : 03/03/2026
  */
 
 public class Kendaraan {
