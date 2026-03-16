@@ -4,8 +4,6 @@
  * Tanggal      : 10 Maret 2026 
  */
 
-import javax.swing.border.Border;
-
 public class Lingkaran extends BangunDatar {
   private double jari;
 
