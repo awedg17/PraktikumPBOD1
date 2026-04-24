@@ -1,0 +1,20 @@
+Polimorfisme merupakan konsep di OOP yang membuat satu tipe referensi 
+bisa digunakan untuk berbagai objek yang berbeda. Jadi meskipun tipe 
+variabelnya sama, objek yang ditampung bisa punya perilaku yang beda. 
+Ini biasanya terjadi karena adanya hubungan pewarisan antara class 
+induk dan class turunan. 
+
+Misalnya satu variabel bertipe induk bisa diisi objek anak yang 
+berbeda-beda. Saat method dipanggil, hasilnya bisa berbeda tergantung 
+objek yang dipakai. Jadi yang menentukan perilaku itu bukan tipe 
+variabelnya, tapi objek aslinya. Ini yang bikin program lebih fleksibel 
+dan ga kaku.
+
+Cara kerjanya, kita pakai satu tipe umum untuk menampung banyak objek, 
+lalu method yang sama bisa menghasilkan output berbeda. Hal ini karena 
+Java menentukan method yang dijalankan saat program berjalan, bukan saat 
+ditulis. Jadi walaupun pemanggilannya sama, implementasinya bisa beda di 
+tiap class turunan. Dengan konsep ini, kita ga perlu bikin banyak kode 
+untuk tiap jenis objek. Cukup satu struktur, tapi bisa dipakai untuk banyak
+kondisi. Ini bikin program lebih ringkas, mudah dikembangkan, dan gampang 
+dipelihara.
