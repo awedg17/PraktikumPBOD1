@@ -1,12 +1,11 @@
 /* Nama File    : AngkaSial.java
  * Deskripsi    : Program penggunaan exception buatan sendiri
-                  pengenalan klausa 'throw' dan 'throws'
+                  Pengenalan klausa 'throw' dan 'throws'
  * Pembuat      : Dewangga Ramadhan Halim
- * Tanggal      : 24 Maret 2026 
+ * Tanggal      : 27 Maret 2026 
  */
 
 public class AngkaSial{
-
   public void cobaAngka(int angka) throws AngkaSialException{
     if(angka==13) {
       throw new AngkaSialException();
@@ -28,12 +27,16 @@ public class AngkaSial{
   }
 }
 
-/* 1. Ketika eksepsi terjadi, apakah baris 12 pada AngkaSial.java di atas dieksekusi? */
+/* 1. Ketika eksepsi terjadi, apakah baris 12 pada AngkaSial.java 
+di atas dieksekusi?  */
 
-/* Tidak, baris 12 tidak dieksekusi karena ketika terjadi eksepsi pada saat angka 13 diproses, 
-program langsung berpindah ke blok catch sehingga perintah setelahnya tidak dijalankan. */
+/* Tidak, baris 12 tidak dieksekusi karena saat angka 13 diproses 
+terjadi eksepsi, sehingga program langsung berpindah ke catch dan 
+skip perintah setelah throw.*/
 
-/* Apakah baris 21 pada AngkaSial.java di atas dieksekusi? */
+/* 2. Apakah baris 21 pada AngkaSial.java di atas dieksekusi? */
 
-/* Ya, baris 21 dieksekusi karena setelah eksepsi ditangkap oleh blok catch, program akan 
-menjalankan perintah yang ada di dalam catch tersebut. */
+/* Ya, baris 21 dieksekusi karena baris tersebut bagian dari catch
+yang dijalankan ketika eksepsi terjadi. */
+
+

@@ -1,7 +1,7 @@
-/* Nama File    : ExceptionOnArray.java
- * Deskripsi    : Program penugasan eksepsi menggunakan class library Java
+/* Nama File    : ExceptiOnArray.java
+ * Deskripsi    : Program penggunaan eksepsi menggunakan class library Java
  * Pembuat      : Dewangga Ramadhan Halim
- * Tanggal      : 24 Maret 2026 
+ * Tanggal      : 27 Maret 2026 
  */
 
 public class ExceptionOnArray{
