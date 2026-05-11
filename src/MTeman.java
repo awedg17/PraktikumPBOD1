@@ -1,5 +1,5 @@
 /**
- * File         : Teman.java
+ * File         : MTeman.java
  * Pembuat      : Dewangga Ramadhan Halim - 24060124130118
  * Lab          : D1
  */
